@@ -1,29 +1,37 @@
-import React,{Component} from 'react'
-import './css/index.less'
+import React,{Component} from 'react';
+import './css/index.less';
 import Home from "./conponent/Home";
 import List from "./conponent/List";
-import { HashRouter as Router, Route,Link} from 'react-router-dom'
+import { HashRouter as Router, Route} from 'react-router-dom';
+import News from "./conponent/News/index";
+import My from "./conponent/my/index";
+import Index from "./conponent/index";
+import './index.less';
 export default class App extends Component{
     render(){
         return(
             <Router>
-            <div className="ceshi">
-
+                <Index>
 
                 <Route
-                path="/home"
-                render={()=><Home/>}
+                path={"/home"}
+                component={Home}
                 />
 
                 <Route
-                    path="/list"
-                    render={()=><List/>}
+                    path={'/list'}
+                    component={List}
                 />
-                <ul>
-                    <button><Link to="/home">主页</Link></button>
-                    <button><Link to="/list">列表</Link></button>
-                </ul>
-            </div>
+                <Route
+                    path={"/news"}
+                    component={News}
+                />
+                <Route
+                    path={"/my"}
+                    component={My}
+                />
+
+                </Index>
             </Router>
         )
     }
