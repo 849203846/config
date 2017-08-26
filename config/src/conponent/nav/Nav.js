@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Link,NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './index.less';
 export default class Nav extends Component{
     render(){
@@ -9,7 +9,6 @@ export default class Nav extends Component{
                <NavLink to="/list">列表</NavLink>
                <NavLink to="/news">消息</NavLink>
                <NavLink to="/my">我的</NavLink>
-
             </div>
         )
     }

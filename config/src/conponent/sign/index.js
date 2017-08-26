@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
-export default class News extends Component{
+export default class Sign extends Component{
     render(){
         return (
             <div>
-              消息页面  消息页面 消息页面 消息页面
+              注册&登录页面
             </div>
         )
     }

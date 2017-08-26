@@ -3,7 +3,37 @@ export default class List extends Component{
     render(){
         return (
             <div>
-                list
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
+               发现
             </div>
         )
     }

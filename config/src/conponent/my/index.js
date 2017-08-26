@@ -3,13 +3,37 @@ export default class My extends Component{
     render(){
         return (
             <div>
-                Mybr
-                safdbf
-                db
-                s
-                dfb
-                fd
-
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
+              我的
 
             </div>
         )

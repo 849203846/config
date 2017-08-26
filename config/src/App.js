@@ -7,11 +7,18 @@ import News from "./conponent/News/index";
 import My from "./conponent/my/index";
 import Index from "./conponent/index";
 import './index.less';
+import Sign from './conponent/sign';
 export default class App extends Component{
     render(){
         return(
             <Router>
                 <Index>
+
+                    <Route
+                        exact
+                        path={"/"}
+                        component={Home}
+                    />
 
                 <Route
                 path={"/home"}
@@ -30,7 +37,10 @@ export default class App extends Component{
                     path={"/my"}
                     component={My}
                 />
-
+                    <Route
+                        path={"/sign"}
+                        component={Sign}
+                    />
                 </Index>
             </Router>
         )
