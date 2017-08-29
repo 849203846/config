@@ -1,11 +1,11 @@
 import React,{Component} from 'react';
-import Sigin from "./Sigin/index";
+import Register from "./register/index";
 
 export default class My extends Component{
     render(){
         return (
             <div>
-            <Sigin/>
+            <Register/>
             </div>
         )
     }
