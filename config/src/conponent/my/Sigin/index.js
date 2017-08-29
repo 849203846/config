@@ -23,7 +23,7 @@ export default class Sigin extends Component{
                         value={this.state.username}
                         onChange={event=>this.setState({username:event.target.value})}/></li>
                     <li>
-                        <i className="iconfont icon-password"> </i>
+                        <i className="iconfont icon-password"></i>
 
                     <input
                         placeholder="请输入你的密码"
