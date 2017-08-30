@@ -5,8 +5,9 @@ export default class Sigin extends Component{
         super();
         this.state={username:'',password:''};
     }
-    btn(){
-        let my={username:this.state.username,password:this.state.password}
+    btn=()=>{
+        let sigins=localStorage.getItem('sigin')
+        let sigin={username:this.state.username,password:this.state.password}
 
     }
     render(){
